@@ -29,7 +29,7 @@ html, body, div, span, applet, object, iframe,
   }
   ol, ul {
   	list-style: none;
-    background-color: #fafafa;
+
     overflow: hidden;
   }
   blockquote, q {
@@ -98,6 +98,7 @@ background-color: #fafafa;
 .main {
       margin: 2% 35% 2% 14%;
       font-family: arial,sans-serif;
+
       }
 
 tr {
