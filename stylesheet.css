@@ -64,14 +64,32 @@ input {
     float: right;
     padding: 2% 1%;
 }
+.greybar {
+background-color: #fafafa;
+}
 
 /* Links right below Search bar */
 .pages {
     margin: 0% 35% 2% 14%;
     font-size: 15px;
     font-family: 'Roboto',arial,sans-serif;
+  }
+
+  #top:link {
+    /* Applies to unvisited links*/
+    text-decoration: none;
     color: #757575;
-}
-.greybar {
-background-color: #fafafa;
-}
+    }
+
+  #top:hover {
+      text-decoration: none;
+      color: black;
+      }
+
+  #All:link {
+    /* Applies to activated links */
+    text-decoration: none;
+    border-bottom: 3px solid blue;
+    font-weight:bold;
+    color: blue;
+    }
