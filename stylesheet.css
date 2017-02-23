@@ -81,15 +81,20 @@ background-color: #fafafa;
     color: #757575;
     }
 
-  #top:hover {
+    #top:hover {
+        text-decoration: none;
+        color: black;
+        }
+
+    #All:link {
+      /* Applies to activated links */
       text-decoration: none;
-      color: black;
+      border-bottom: 3px solid blue;
+      font-weight:bold;
+      color: blue;
       }
 
-  #All:link {
-    /* Applies to activated links */
-    text-decoration: none;
-    border-bottom: 3px solid blue;
-    font-weight:bold;
-    color: blue;
-    }
+/* Search results */
+.main {
+      margin: 0% 35% 2% 14%;
+}
