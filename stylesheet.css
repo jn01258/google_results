@@ -46,27 +46,27 @@ html, body, div, span, applet, object, iframe,
   }
 /* Header */
 
-
-.left {
-    float: left;
-    padding: 2% 1%;
-}
-
-input {
-    float: left;
-    border: 1px solid #999999;
-    padding: 1% 29% 1% 10%;
-    margin: 2% 1%;
-    box-shadow:0 0 2px grey;
-}
-
-.right  {
-    float: right;
-    padding: 2% 1%;
-}
 .greybar {
 background-color: #fafafa;
 }
+
+        .left {
+            float: left;
+            padding: 2% 1%;
+        }
+
+        input {
+            float: left;
+            border: 1px solid #999999;
+            padding: 1% 29% 1% 10%;
+            margin: 2% 1%;
+            box-shadow:0 0 2px grey;
+        }
+
+        .right  {
+            float: right;
+            padding: 2% 1%;
+        }
 
 /* Links right below Search bar */
 .pages {
@@ -91,10 +91,37 @@ background-color: #fafafa;
       text-decoration: none;
       border-bottom: 3px solid blue;
       font-weight:bold;
-      color: blue;
+      color: #1a0dab;
       }
 
 /* Search results */
 .main {
-      margin: 0% 35% 2% 14%;
+      margin: 2% 35% 2% 14%;
+      font-family: arial,sans-serif;
+      }
+
+tr {
+    height: 9px;
+    vertical-align: bottom;
+}
+#title {
+  font-size: 19px;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+
+  #title:visited {
+    /* Applies to visited links*/
+    text-decoration: none;
+    color: #710571;
+    }
+
+    #title:hover {
+      text-decoration: underline;
+      }
+
+.greenLink {
+  color: #095f09;
+  font-size: 14px;
 }
