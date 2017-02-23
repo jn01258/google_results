@@ -114,7 +114,7 @@ tr {
   #title:visited {
     /* Applies to visited links*/
     text-decoration: none;
-    color: #710571;
+    color: #6815a5;
     }
 
     #title:hover {
@@ -124,4 +124,11 @@ tr {
 .greenLink {
   color: #095f09;
   font-size: 14px;
+  padding: 1% 0% 0.75% 0%;
+}
+
+.description {
+  color: #5d5050;
+  font-size: 14px;
+
 }
